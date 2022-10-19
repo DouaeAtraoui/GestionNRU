@@ -1,0 +1,42 @@
+#avatar {
+    border: 2px solid rgb(148, 141, 136);
+    border-radius: 20px;
+    padding: 15px;
+    margin: 20px;
+    width: 500px;
+    text-align: center;
+    
+}
+.bouton {
+    background-color: #e6c71d;
+    border: 2px solid rgb(148, 141, 136);
+    color: white;
+    padding: 15px 32px;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+table {
+    border-collapse: collapse;
+    box-align:center;
+    
+}
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    
+}
+#fichiers {
+    width: 500px;
+}
+#V1 {
+    color: rgba(137, 43, 226, 0.548);
+}
+#V2{
+    color: rgb(119, 233, 233);
+}

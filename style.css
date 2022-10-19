@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Carrois+Gothic&family=Poppins:wght@500&family=Share+Tech&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Lato:wght@300&display=swap');
+
+body{
+
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/*Carousel*/
+.collapse li{
+    margin: 0 20px;
+    font-size:large;
+
+}
+
+.collapse li i{
+    margin: 0 30px;
+}
+
+
+.d-flex i{
+    color: black;
+
+}
+
+#carouselExampleIndicators{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+
+.carousel-item img{
+    width: 100%;
+    height: auto;
+}
+
+.carousel-item h1{
+    bottom: 0%;
+    color: black;
+    font-weight: bold;
+}
+
+.carousel-item h3{
+    bottom: 0%;
+    color: black;
+}
+
+.display-4{
+    margin: 60px 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+h1{
+    color: #A61510;
+}
+
+
+/*footer*/
+footer{
+    margin: 20px 20px 20px;
+    width: 100%;
+    height : 400px ;
+    background-color: 	#c0c0c0; 
+    color : black ;
+    padding: 70px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.col h5{
+	font-size: 18px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.col h5::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color:	#A61510;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.col img{
+    text-align:center;
+    margin:20px;
+    display:flex
+}
+
+
+.col ul i{
+    margin: 10px;
+}
+
+.col ul li{
+    font-size: 4Opx;
+}
+
+
+/*cards*/
+
+.card-group{
+    margin: 0% 10%;
+}
+  
+   
+   #group-3 h5{
+    text-align: center;
+    color: #A61510;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.card {
+    margin: 0% 10%;
+}
+
+.card .card-text{
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+}
